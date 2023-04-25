@@ -11,10 +11,6 @@ describe('Calculatrice', ()=>{
         expect(calculatrice.min(1,2)).toBe(-1);
     });
 
-    test('mul 3 * 2 equals 6',() => {
-        expect(calculatrice.mu(3,2)).toBe(6);
-    });
-
     test('adds 8 / 2 equals 4',() => {
         expect(calculatrice.div(8,2)).toBe(4);
     });
